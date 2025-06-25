@@ -1,3 +1,5 @@
+// prints 100 in decimal, octal, and hexidecimal
+
 #include<stdio.h>
 
 int main(void)
