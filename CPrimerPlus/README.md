@@ -1,5 +1,5 @@
 # C Primer Plus
-![alt_text](https://github.com/ssoehdata/C_Learning/blob/main/C_logo.jpg)
+
 
 Working through  C Primer Plus Fifth Edition, Stephen Prata
 
