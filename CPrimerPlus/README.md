@@ -1,6 +1,7 @@
 # C Primer Plus
 
-![alt text](https://github.com/ssoehdata/C_Learning/CPrimerPlus/CPrimer_cover.jpg) 
+![alt text](https://github.com/ssoehdata/C_Learning/tree/main/CPrimerPlus/CPrimer_cover.jpg) 
+
 Working through  C Primer Plus Fifth Edition, Stephen Prata
 
 </div>
