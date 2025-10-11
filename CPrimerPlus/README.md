@@ -1,5 +1,5 @@
 # C Primer Plus
-![Fortran](https://github.com/ssoehdata/C_Learning/blob/main/c-programming-language-logo.jpg)
+![alt_text](https://github.com/ssoehdata/C_Learning/blob/main/c-programming-language-logo.jpg)
 
 Working through  C Primer Plus Fifth Edition, Stephen Prata
 
