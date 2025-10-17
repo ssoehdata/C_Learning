@@ -1,4 +1,4 @@
-/* guess.c -- an inefficient and fualty number-guesser */
+/* guess.c -- an inefficient and faulty number-guesser */
 #include<stdio.h> 
 int main(void)
 {
