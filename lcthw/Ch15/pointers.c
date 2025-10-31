@@ -61,3 +61,7 @@ int main(int argc, char *argv[]) {
 // &thing                           The address of thing 
 // type *ptr = &thing           A pointer of type named ptr set to the address of thing
 // ptr++                            Increment where ptr points 
+
+
+// int height = 100;
+// int *cur_height = &height ;  // get the address of height, and assign it to an integer pointer named *cur_height
