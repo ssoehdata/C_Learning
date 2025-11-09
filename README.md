@@ -5,4 +5,5 @@ Working through resources to learn C
 
 ### C Primer Plus, 5th Edition, Prata
 ### Learn C The Hard Way, Shaw
+### Intro to C OliveStem Course
 ![alt_text](https://github.com/ssoehdata/C_Learning/blob/main/C_logo.jpg)
