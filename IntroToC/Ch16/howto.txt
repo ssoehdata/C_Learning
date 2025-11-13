@@ -1,0 +1,4 @@
+in terminal type: 
+make  filename 
+
+e.g. make multfiles 
