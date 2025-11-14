@@ -1,0 +1,18 @@
+/* p_and_s.c --pointers */
+#include<stdio.h> 
+int main(void)
+{
+    const char * mesg = "Dont be a fool!"; 
+    const char * copy;
+
+    copy = mesg; 
+    printf("%s\n", copy); 
+    printf("mesg = %s; &mesg = %p; value = %p\n",
+        mesg, &mesg, mesg); 
+
+    printf("copy = %s; &copy = %p; value = %p\n",
+        copy, &copy, copy);
+
+    return 0;
+}
+ 
