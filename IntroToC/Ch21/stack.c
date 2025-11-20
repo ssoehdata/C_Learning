@@ -1,0 +1,55 @@
+// freeing up memory 
+#include "stack.h"                  
+                            
+                            
+struct stack init( ){
+    struct stack ret = {NULL, 0};                              
+    return ret;                 
+}                           
+
+void push(struct stack *s, int val){
+    struct node *newNode = malloc(sizeof(struct node));   
+
+    if (s ->size == 0) {      
+        newNode->value = val;   
+        newNode->next = NULL;  
+
+        s->top = newNode;       
+        s->size++;         
+    
+    }else {
+        newNode->value = val;
+        newNode->next = s->top;  
+        s->top = newNode;       
+
+        s->size++;
+   }                                              
+}
+
+int peek(struct stack *s){
+    if (s->size > 0){               
+        return s->top->value;       
+    }
+    else{
+        printf("Invalid peek operation");
+        return -1;
+    }
+
+}
+int pop(struct stack *s){
+    if (s->size > 0){
+        int val = s->top->value;  
+        struct node *topNode = s->top;      // get top node from the stack
+
+        s->top = s->top->next;   
+        s->size--;   
+        
+        free(topNode);                      // deallocates mem allocated with malloc
+
+        return val;
+    }
+    else{
+        printf("Invalid pop operation");
+        return -1;            
+    }
+}
