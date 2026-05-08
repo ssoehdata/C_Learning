@@ -1,0 +1,3 @@
+Including the worked out examples and excercises. 
+The examples are as they appear in the text, 
+	i.e. to be compiled in the unix style of cc file.c -o file
