@@ -3,6 +3,7 @@ Working through resources to learn C
 
 ## Included: 
 
+### The C Programming Language, 1st Edition, Kernighan, Ritchie
 ### C Primer Plus, 5th Edition, Prata
 ### Learn C The Hard Way, Shaw
 ### Intro to C OliveStem Course
